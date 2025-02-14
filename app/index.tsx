@@ -20,7 +20,6 @@ import {
 } from "@expo/vector-icons";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { router } from "expo-router";
-import ReactBoxModal from "@/components/ReactBoxModal";
 import BottomSheet, {
   BottomSheetBackdrop,
   BottomSheetScrollView,

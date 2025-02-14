@@ -20,7 +20,6 @@ A **React Native Expo** mobile app that displays a list of countries with detail
 
 1. [React Native Bottom Sheet](https://www.npmjs.com/package/@gorhom/bottom-sheet) for bottom sheets
 2. [React Native Async Storage](https://www.npmjs.com/package/@react-native-async-storage/async-storage) to store data on the user's device's physical memory
-3. [React-Native-Modal](https://www.npmjs.com/package/react-native-modal) for UI components
 
 ## Get started
 
