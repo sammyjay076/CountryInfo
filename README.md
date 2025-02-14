@@ -1,6 +1,25 @@
-# Welcome to your Expo app 👋
+# 🌍 Country Info App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A **React Native Expo** mobile app that displays a list of countries with detailed information. It includes **light/dark mode theme switching** for better user experience. This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+![App Preview](./assets//images//simulator_screenshot_E1293650-EAD8-4A7D-82A8-C7E2C9B61F07.png) *(Replace with an actual screenshot)*
+
+---
+
+## 📌 Features
+
+✅ Fetches a list of **countries** from [REST Countries API](https://restcountries.com/v3.1/all)
+✅ Displays **country details** (name, flag, capital, population, etc.)
+✅ **Search bar** to filter countries by name
+✅ **Light/Dark theme toggle** for UI customization
+✅ **Persistent theme storage** using AsyncStorage
+✅ Responsive layout for mobile devices
+✅ Deployed on **Appetize.io** for online testing
+
+## 📦 Dependencies
+
+1. [React Native Bottom Sheet](https://www.npmjs.com/package/@gorhom/bottom-sheet) for bottom sheets
+2. [React Native Async Storage](https://www.npmjs.com/package/@react-native-async-storage/async-storage) to store data on the user's device's physical memory
 
 ## Get started
 
