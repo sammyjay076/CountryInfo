@@ -9,6 +9,8 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import { useColorScheme } from "@/hooks/useColorScheme";
 
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+// import { StatusBar } from "react-native";
+import { StatusBar } from "expo-status-bar";
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
@@ -32,6 +34,7 @@ export default function RootLayout() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <ThemeProvider>
         <Stack screenOptions={{ headerShown: false }} />
+        <StatusBar style="auto" />
       </ThemeProvider>
     </GestureHandlerRootView>
   );

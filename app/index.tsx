@@ -235,7 +235,7 @@ export default function HomeScreen(): JSX.Element {
           </Text>
           <TouchableOpacity onPress={toggleTheme}>
             {theme === "dark" ? (
-              <Ionicons name="sunny" size={28} color="yellow" />
+              <Ionicons name="sunny" size={28} color="#fff" />
             ) : (
               <Ionicons name="moon" size={28} color="black" />
             )}

@@ -11,8 +11,8 @@ import React, { useState, useEffect, useCallback } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useTheme } from "@/contexts/ThemeContext";
 import { router, useLocalSearchParams, useRouter } from "expo-router";
-import { ArrowLeft, ArrowRight } from "iconsax-react-native";
 import { getThemeStyles } from "@/constants/themeStyles";
+import { AntDesign } from "@expo/vector-icons";
 
 type Props = {};
 
@@ -60,8 +60,6 @@ const Country = (props: Props) => {
       </View>
     );
 
-  console.log("what is id", JSON.stringify(country, null, 3));
-
   return (
     <SafeAreaView
       style={{
@@ -85,9 +83,10 @@ const Country = (props: Props) => {
             router.back();
           }}
         >
-          <ArrowLeft
-            color={theme === "dark" ? "#FFD700" : "#000000"}
+          <AntDesign
+            name="arrowleft"
             size={32}
+            color={theme === "dark" ? "#FFD700" : "#000000"}
           />
         </TouchableOpacity>
         <Text
